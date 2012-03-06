@@ -7,12 +7,12 @@ gem 'rails', '3.0.11'
 
 gem 'sqlite3'
 
-group :development do
+group :development, :test do
+  gem 'web-app-theme', '>= 0.6.2'
   gem 'rspec-rails', '2.6.1'
 end
 
 group :test do
-  gem 'rspec-rails', '2.6.1'
   #webrat is the browser that rspec uses
   gem 'webrat', '0.7.1' 
 end
