@@ -1,4 +1,12 @@
 Palatable::Application.routes.draw do
+  get "bookmarks/index"
+
+  get "bookmarks/show"
+
+  get "bookmarks/new"
+
+  get "bookmarks/create"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
